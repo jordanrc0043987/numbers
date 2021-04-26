@@ -57,12 +57,12 @@ namespace numbers
             string s2 = "3.2;";
             try
             {
-                int i2 = int.Parse(s2)
+                int i2 = int.Parse(s2);
 
             }
             catch
             {
-                MessageBox.Show(s2 + "is not an integer"):
+                MessageBox.Show(s2 + "is not an integer");
                 int i2 = 0;
 
                   
