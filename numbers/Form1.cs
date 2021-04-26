@@ -38,6 +38,48 @@ namespace numbers
            
             richTextBox1.AppendText(c.ToString("0.00E00") + "\n");
 
+            string s = "3";
+            string PI = "3.14159265";
+            int i = int.Parse(s);
+            double d = double.Parse(PI);
+            richTextBox1.AppendText(i.ToString() + "\n");
+            richTextBox1.AppendText(d.ToString() + "\n");
+
+            string st = "three";
+            try
+            {
+                int it = int.Parse(st);
+            }
+            catch
+            {
+                MessageBox.Show(st + " is not an integer");
+            }
+            string s2 = "3.2;";
+            try
+            {
+                int i2 = int.Parse(s2)
+
+            }
+            catch
+            {
+                MessageBox.Show(s2 + "is not an integer"):
+                int i2 = 0;
+
+                  
+            }
+            string s3 = "pi";
+            try
+            {
+                double d2 = double.Parse(s3);
+
+            }
+            catch
+            {
+                double d2 = 0;
+            }
+           
+
+
 
 
 
